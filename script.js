@@ -38,7 +38,7 @@ function add_text(){
 
 function read_from_ls(){
 
-    let json_data = window.localStorage.getItem(nyckel, json);
+    let json_data = window.localStorage.getItem(nyckel);
 
     if(json_data != null){
 
